@@ -3,7 +3,7 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 
 
-
+import Navbar from '../components/Navbar';
 import Exercises from '../components/Exercises';
 import HeroBanner from '../components/HeroBanner';
 import SearchExercises from '../components/SearchExercises';
@@ -15,6 +15,7 @@ const Home = () => {
 
     return (
         <Box>
+            <Navbar />
             <HeroBanner />
             <SearchExercises
                 setExercises={setExercises}
